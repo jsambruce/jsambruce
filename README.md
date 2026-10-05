@@ -11,7 +11,7 @@
 
 I’m a **B.S. Computer Science student at William Paterson University**, with expected graduation in **May 2027**. I troubleshoot campus connectivity and design, configure, and verify networks in EVE-NG.
 
-[Explore my lab ↗](https://github.com/jsambruce/ospf-multiarea-lab) · [Connect on LinkedIn ↗](https://linkedin.com/in/john-sam-bruce-681422285)
+[Explore my lab ↗](https://github.com/jsambruce/ospf-multiarea-lab) · [Connect on LinkedIn ↗](https://linkedin.com/in/jsambruce)
 
 ## ⌁ A little context
 
