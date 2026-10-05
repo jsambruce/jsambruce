@@ -1,64 +1,98 @@
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/network-banner-mobile-dark.svg">
-  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/network-banner-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/network-banner-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/network-banner-light.svg">
-  <img src="assets/network-banner-light.svg" alt="Network engineering — a focus on resilience, availability, and secure connectivity." width="1200">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 760px) and (prefers-color-scheme: dark)" srcset="assets/signal-banner-mobile-dark-still.svg">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 760px)" srcset="assets/signal-banner-mobile-light-still.svg">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/signal-banner-dark-still.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/signal-banner-light-still.svg">
+  <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="assets/signal-banner-mobile-dark.svg">
+  <source media="(max-width: 760px)" srcset="assets/signal-banner-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/signal-banner-dark.svg">
+  <img src="assets/signal-banner-light.svg" alt="John Sam-Bruce. CCNA certified. Networks people can depend on. A conceptual animation shows a packet taking an alternate route after a link interruption." width="1200">
 </picture>
 
-# John Sam-Bruce
+I’m a **B.S. Computer Science student at William Paterson University**, with expected graduation in **May 2027**. I troubleshoot campus connectivity and design, configure, and verify networks in EVE-NG.
 
-**CCNA certified · Network engineering · Network operations & security**
+[Explore my lab ↗](https://github.com/jsambruce/ospf-multiarea-lab) · [Connect on LinkedIn ↗](https://linkedin.com/in/john-sam-bruce-681422285)
 
-B.S. Computer Science, William Paterson University · Expected May 2027
+## ⌁ A little context
 
-I build and troubleshoot networks in EVE-NG and gain practical experience supporting campus connectivity. My goal is to help organizations build resilient, secure networks that keep services available and people connected.
+```text
+jsb@lab:~$ cat purpose.txt
 
-[Featured lab](#featured-lab) · [Campus experience](#campus-experience) · [Technical practice](#technical-practice) · [GitHub](https://github.com/jsambruce)
+I want to help organizations keep services available,
+protect connectivity, and make networks more resilient.
 
-## Featured lab
+Next chapter → Python development and network automation.
+```
 
-### [Multi-area OSPF & route redistribution](https://github.com/jsambruce/ospf-multiarea-lab)
+## ▣ Inside the lab
 
-`EVE-NG` `Cisco IOS` `OSPF` `EIGRP`
+<table width="100%">
+<tr>
+<td>
+<p><sub><strong>FEATURED PROJECT</strong> · EVE-NG LAB</sub></p>
+<h3><a href="https://github.com/jsambruce/ospf-multiarea-lab">Multi-area OSPF &amp; route redistribution ↗</a></h3>
+<p>Connecting network areas, exchanging routes, and checking what the routers actually learned.</p>
+<p><code>OSPF</code> <code>EIGRP</code> <code>Cisco IOS</code> <code>EVE-NG</code></p>
+<hr>
+<p><strong>Evidence:</strong> Saved outputs show <strong>FULL neighbor adjacencies</strong> and learned inter-area and external routes.</p>
+<p><a href="https://github.com/jsambruce/ospf-multiarea-lab/blob/main/images/Topology/topology.png">Topology</a> · <a href="https://github.com/jsambruce/ospf-multiarea-lab/tree/main/configs">Configurations</a> · <a href="https://github.com/jsambruce/ospf-multiarea-lab/tree/main/outputs">Verification outputs</a></p>
+</td>
+</tr>
+</table>
 
-A routing lab exploring how separate network areas connect to the backbone and exchange routes across routing protocols.
+## ◇ Experience, with context
 
-- **Design:** OSPF areas 0, 1, 2, and 60, with an EIGRP domain connected through R4.
-- **Configuration:** a virtual link through area 1, a totally stubby area, OSPF–EIGRP redistribution, and route summarization settings.
-- **Verification:** saved outputs show FULL OSPF neighbor adjacencies and learned inter-area and external routes.
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+<p><sub><strong>ON CAMPUS</strong></sub></p>
+<h3>Working with real users</h3>
+<p>Connectivity troubleshooting, VLANs, Cisco switch-port configuration and verification, and shadowing network engineers.</p>
+</td>
+<td width="50%" valign="top">
+<p><sub><strong>IN EVE-NG</strong></sub></p>
+<h3>Designing and validating networks</h3>
+<p>Routing, switching, redundancy, network services, security controls, and failover practice in lab environments.</p>
+</td>
+</tr>
+</table>
 
-**Explore the evidence:** [Topology](https://github.com/jsambruce/ospf-multiarea-lab/blob/main/images/Topology/topology.png) · [Configurations](https://github.com/jsambruce/ospf-multiarea-lab/tree/main/configs) · [Verification outputs](https://github.com/jsambruce/ospf-multiarea-lab/tree/main/outputs)
+## ◈ My networking toolkit
 
-## Campus experience
-
-At William Paterson University, my practical networking experience includes:
-
-- Troubleshooting user connectivity and working with VLANs.
-- Configuring and verifying switch ports using Cisco CLI.
-- Shadowing network engineers to learn how campus networks are operated and maintained.
-
-## Technical practice
-
-The technologies below reflect my lab practice and study. My campus responsibilities are described above.
+Lab practice and study
 
 | Area | Technologies and practice |
 | :--- | :--- |
-| **Routing** | OSPF, EIGRP, BGP, redistribution, route summarization |
-| **Switching** | VLANs, 802.1Q trunks, STP/RSTP, EtherChannel/LACP, inter-VLAN routing |
-| **Network services** | DHCP, DHCP relay, DNS, NAT, PAT |
-| **Resilience** | VRRP, HSRP, redundant switching, failover testing |
-| **Security** | ACLs, port security, DHCP snooping, Dynamic ARP Inspection, Palo Alto firewall labs |
-| **Monitoring** | SNMP, Syslog; exposure to SolarWinds |
+| **Routing & switching** | OSPF · EIGRP · BGP · redistribution · summarization · VLANs · 802.1Q · STP/RSTP · EtherChannel/LACP · inter-VLAN routing |
+| **Availability & services** | HSRP · VRRP · redundant switching · failover testing · DHCP / relay · DNS · NAT / PAT |
+| **Security & visibility** | ACLs · port security · DHCP snooping · Dynamic ARP Inspection · Palo Alto firewall labs · SNMP · Syslog · SolarWinds exposure |
 
-## What I’m developing next
+## ↗ The next hop
 
-- Deeper practice with campus redundancy, failure scenarios, and recovery verification.
-- Stronger documentation connecting topology, configuration choices, and troubleshooting evidence.
-- Python fundamentals as a foundation for network automation, with Ansible as a future learning goal.
+<table width="100%">
+<tr>
+<td width="33%" valign="top">
+<p><sub><strong>CERTIFIED</strong></sub></p>
+<h3>CCNA</h3>
+<p>Cisco networking</p>
+</td>
+<td width="33%" valign="top">
+<p><sub><strong>LEARNING</strong></sub></p>
+<h3>Python</h3>
+<p>Expanding my toolkit</p>
+</td>
+<td width="34%" valign="top">
+<p><sub><strong>ON THE HORIZON</strong></sub></p>
+<h3>Ansible</h3>
+<p>Network automation</p>
+</td>
+</tr>
+</table>
 
-I’m interested in early-career opportunities in network engineering, network operations, and network security.
+---
 
-[Browse my repositories →](https://github.com/jsambruce?tab=repositories)
+Interested in early-career roles in **network engineering, operations, and security.**
 
-<!-- Optional: add a confirmed public LinkedIn URL and/or portfolio link here. -->
+*Build with intent. Verify with evidence.*
+
+[More of my work ↗](https://github.com/jsambruce?tab=repositories)
